@@ -2,7 +2,7 @@ $(call PKG_INIT_BIN, 2.94)
 $(PKG)_SOURCE:=app_softmodem.zip
 $(PKG)_SITE:=https://github.com/proquar/asterisk-Softmodem/archive/
 
-$(PKG)_DEPENDS_ON += libspandsp asterisk
+$(PKG)_DEPENDS_ON += spandsp asterisk
 
 $(PKG)_BINARY := $($(PKG)_DIR)/chan_softmodem.so
 $(PKG)_BINARY_TARGET := $($(PKG)_DEST_DIR)/$(ASTERISK_MODULES_DIR)/chan_softmodem.so
