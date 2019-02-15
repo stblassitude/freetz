@@ -71,5 +71,4 @@ menu "Asterisk 3rd-party modules"
 	source make/asterisk-chan-capi/Config.in
 	source make/asterisk-chan-dongle/Config.in
 	source make/asterisk-chan-sccp/Config.in
-	source make/asterisk-chan-softmodem/Config.in
 endmenu
