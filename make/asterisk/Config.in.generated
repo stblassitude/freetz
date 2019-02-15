@@ -250,6 +250,10 @@ menu "Applications"
 		bool "app_softhangup: Hangs up the requested channel"
 		default y
 
+	config FREETZ_PACKAGE_ASTERISK_APP_SOFTMODEM
+		bool "app_softmodem: V.23 modem"
+		default y
+
 	config FREETZ_PACKAGE_ASTERISK_APP_SPEECH_UTILS
 		bool "app_speech_utils: Dialplan Speech Applications"
 		default y
@@ -1339,4 +1343,3 @@ config FREETZ_PACKAGE_ASTERISK_WITH_ZLIB
 	bool
 	select FREETZ_LIB_libz
 	default y
-
