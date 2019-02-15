@@ -53,6 +53,7 @@ app_senddtmf \
 app_sendtext \
 app_sms \
 app_softhangup \
+app_softmodem \
 app_speech_utils \
 app_stack \
 app_system \

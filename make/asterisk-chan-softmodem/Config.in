@@ -1,7 +1,0 @@
-config FREETZ_PACKAGE_ASTERISK_CHAN_SOFTMODEM
-	bool "chan_softmodem: softmodem with BTX additions"
-	depends on FREETZ_PACKAGE_ASTERISK
-	select FREETZ_LIB_spandsp
-	default n
-	help
-		Softmodem with additions for the German BTX system
